@@ -1,10 +1,10 @@
 [project]
 name = "django-bouncy"
 version = "1.0.0"
-readme = "README.md"
+readme = "README.rst"
 description = "Wonde Python Api implementation."
 dependencies = [
-  "Django==3.2.7",
+  "Django>=3.2.23",
   "nose",
   "django-nose",
   "coverage",
@@ -25,3 +25,7 @@ classifiers=[
 
 [project.urls]
 Homepage="https://github.com/PrimarySite/django-bouncy"
+
+
+[packages]
+include = ["django_bouncy", "django_bouncy.migrations", "django_bouncy.tests"]
