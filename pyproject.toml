@@ -9,7 +9,7 @@ dependencies = [
   "django-nose",
   "coverage",
   "mock",
-  "pyopenssl==17.3.0",
+  "pyOpenSSL==24.3.0 ",
   "pem>=16.0.0",
   "python-dateutil"]
 keywords=["django-bouncy"]
