@@ -3,10 +3,10 @@
 from django.dispatch import Signal
 
 # Any notification received
-notification = Signal(providing_args=["notification", "request"])
+notification = Signal(["notification", "request"])
 
 # New SubscriptionConfirmation received
-subscription = Signal(providing_args=["result", "notification"])
+subscription = Signal(["result", "notification"])
 
 # New bounce or complaint received
-feedback = Signal(providing_args=["instance", "message", "notification"])
+feedback = Signal(["instance", "message", "notification"])
